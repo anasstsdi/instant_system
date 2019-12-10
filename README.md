@@ -96,8 +96,8 @@ public class ParkingValidator implements Validator {
 }
  
 4- Pour les améliorations dans le cadre d’un vrai projet, il faut rajouter ces points suivants :
-	Création de fichier de Properties pour chaque environnement
-	Ajout de Spring Security afin de sécuriser l’application 
-	Développement de Test Unitaire
-	Ajout de Swagger pour la documentation de l’API
+	Création de fichier de Properties pour chaque environnement.
+	Ajout de Spring Security afin de sécuriser l’application.
+	Développement de Test Unitaire.
+	Ajout de Swagger pour la documentation de l’API.
  
