@@ -22,7 +22,7 @@ import com.parking.service.CitediaRestService;
 import com.parking.validator.ParkingValidator;
 
 @RestController
-@RequestMapping("park-rest")
+@RequestMapping("/parking")
 public class ParkingController {
 
 	@Autowired
