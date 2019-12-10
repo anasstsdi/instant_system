@@ -22,9 +22,12 @@ Description des requêtes POST
 
 Exemple :
 http://localhost:8080/api/parking
+
 corps en json :
+
 {
 "fields": {
+
 		"id": "12",
 		"status": "OUVERT",
 		"orgahoraires": "24h/24 et 7j/7. Bureau ouvert, 7h30 à 20h30 sauf dimanche et jours fériés.",
@@ -43,7 +46,9 @@ corps en json :
 		"coordinates": [-1.678624547, 48.10476252]
 	}
 }
+
 Le champ suivant est obligatoire lors d'un POST :
+
 id: id parking
  
 
