@@ -77,8 +77,10 @@ public class GlobalExceptionHandler {
 
 3- Utilisation de l’interface Validator de Spring permettant de valider la structure d’un objet, l’interface fournit un objet Error qui permet de récupérer l’erreur en cours de validation. Dans le cas de ce test j’ai mis un validator juste pour contrôler le champ id lors de l’envoi de la requête Post.
 
+
 @Component("beforeCreateParkingValidator")
 public class ParkingValidator implements Validator {
+
     @Override
     public boolean supports(Class<?> clazz) {
         return ParkingDto.class.equals(clazz);
@@ -93,6 +95,7 @@ public class ParkingValidator implements Validator {
     private boolean checkInputString(String input) {
         return (input == null || input.trim().length() == 0);
     }
+    
 }
  
 4- Pour les améliorations dans le cadre d’un vrai projet, il faut rajouter ces points suivants :
